@@ -1,0 +1,14 @@
+﻿@CarDealer_HostAddress = http://localhost:5228
+
+POST {{CarDealer_HostAddress}}/api/carapi
+Content-Type: application/json
+
+{
+  "Brand": "zzz",
+  "Model": "xxx",
+  "Price": 10
+
+}
+
+###
+
